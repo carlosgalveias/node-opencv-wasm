@@ -1,0 +1,30 @@
+{
+  "name": "node-opencv-wasm",
+  "version": "1.0.0",
+  "description": "A OpenCV in ASM or WASM for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha test test/** --recursive --exit",
+    "coverage": "nyc --reporter=lcov npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosgalveias/node-opencv-wasm.git"
+  },
+  "keywords": [
+    "node",
+    "opencv",
+    "wasm",
+    "asm"
+  ],
+  "author": "Carlos Galveias",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^11.3.0",
+    "nyc": "^18.0.0",
+    "sharp": "^0.34.5"
+  },
+  "overrides": {
+    "serialize-javascript":"^7.0.3"
+  }
+}
