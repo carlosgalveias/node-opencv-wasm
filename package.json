@@ -1,6 +1,6 @@
 {
   "name": "node-opencv-wasm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A OpenCV in ASM or WASM for Javascript",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,9 @@
     "sharp": "^0.34.5"
   },
   "overrides": {
-    "serialize-javascript":"^7.0.3"
-  }
+    "serialize-javascript": "7.0.5",
+    "brace-expansion": "2.0.3",
+    "uuid": "14.0.0"
+  },
+  "dependencies": {}
 }
