@@ -4,7 +4,7 @@ OpenCV in pure ASM and WASM that can be used without c++ bindings
 
 # Installation
 
-npm install https://eu-de.git.cloud.ibm.com/bluedarwin_public/opencv-asm-or-wasm-wrapper.git
+npm install https://github.com/carlosgalveias/node-opencv-wasm
 
 # Usage
 
